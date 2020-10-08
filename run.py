@@ -4,7 +4,7 @@ from math import log
 import os
 import sys
 
-os.environ["PATH"] += os.pathsep + 'C:/Users/EVGEKIM/Downloads/Graphviz/bin'
+os.environ["PATH"] += os.pathsep + 'path_to_graphviz_bin_folder'
 
 class BookGraph:
 
@@ -93,8 +93,8 @@ class BookGraph:
 
 
     def visualize(self, mapping):
-
-        labels = ['A','B','C','D','E','F','G'] # number of labels correspond to the number of names in the dict.
+        # number of letters should correspond to the number of names in the dict.
+        labels = ['A','B','C','D','E','F','G'] 
         to_viz = []
         for tag,name in zip(labels,self.names):
             to_viz.append([tag,name]) # e.g. ['A','Olga']
