@@ -4,7 +4,9 @@ Use the code in this repo to quickly create a PDF document with an undirected gr
 
 An example of such a graph is shown on the image below.
 
+![graph](Capture.png)
 
+Each node is a character, and edge between two nodes has a weight. The higher the weight, the more two characters are interacting within a story.
 
 ## Dependencies
 
