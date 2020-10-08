@@ -16,7 +16,7 @@ Install the Python library: `pip install graphviz`
 
 Then, go to the official Graphviz page and download a binary for your OS: https://graphviz.org/download/; unpack it.
 
-> Add Graphviz folder to your PATH after installation.
+> Add Graphviz `bin` folder to your PATH after installation.
 
 Edit path to Graphviz bin folder in the code:
 
