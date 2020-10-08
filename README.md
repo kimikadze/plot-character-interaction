@@ -30,6 +30,8 @@ The program takes as input:
 * a book file in plain `txt` format
 * a text file with character names. Each name should be on a separate line. Because the program does not implement reliable NER, it is better if you use names of a single token.
 
+Depending on how many characters your book have, you need to modify a list variable `labels` on line 97. Basically, for each character given in the `names.txt` file, there should be a separate letter.
+
 Run it as:
 
 ```bash
