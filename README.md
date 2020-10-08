@@ -1,6 +1,6 @@
 # Character Interaction Plotting with Graphviz and Python
 
-You the code in this repo to quickly create a PDF document with a graph showing which characters in a book interact with each other.
+Use the code in this repo to quickly create a PDF document with an undirected graph showing which characters in a book interact with each other.
 
 An example of such a graph is shown on the image below.
 
